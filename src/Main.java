@@ -3,6 +3,7 @@ public class Main {
         int[] sales = new int[]{12, 50, 48, 34, 41};
         SalesManager salesManager = new SalesManager(sales);
         System.out.println("Максимально было продано: " + salesManager.max());
+        System.out.println("Обрезанное среднее число продаж равно: " + salesManager.stat());
     }
 }
 
